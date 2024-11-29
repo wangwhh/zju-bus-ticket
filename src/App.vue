@@ -74,11 +74,11 @@ const handleOk = () => {
                     <p style="font-weight: bold; font-size: 30px; letter-spacing: -1px; margin-bottom: 0;">{{ carTime }}</p>
                     <p style="font-size: 18px; margin-bottom: 0;">{{ start }}</p>
                 </div>
-                <div>
+                <div style="margin-top: 10px;">
                     <p style="margin-bottom: 0; color: gray; font-weight: 400;">{{ carId }}</p>
-                    <img :src="Arrow" alt="" style=" width: 150px; height: auto; margin-top: 0;"/>
+                    <img :src="Arrow" alt="" style=" width: 150px; height: auto; "/>
                 </div>
-                <p style="font-size: 18px; margin-bottom: 0;">{{ end }}</p>
+                <p style="font-size: 18px; margin-bottom: 0; margin-top: 20px;">{{ end }}</p>
             </div>
 
 
